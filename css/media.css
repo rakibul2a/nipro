@@ -1,0 +1,269 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	/*header*/
+.header {
+    padding: 10px 0;
+}	
+.logo {
+    max-width: 75%;
+}
+.menu ul li a {
+    padding: 0px 10px !important;
+    font-size: 13px;
+}
+.btn_1 {
+    padding: 0 8px;
+}
+/*header*/
+//* welcome start  */
+.w_shape{
+    height: 40px;
+}
+.w_title h1 {
+    font-size: 25px;
+}
+.f_row p {
+    line-height: 25px;
+    word-spacing: 0px;
+}
+.se_row {
+    margin-top: 50px;
+}
+.se_row h3 {
+    margin: 60px 0 20px;
+}
+.se_row p {
+    margin: 6;
+    padding: 10px;
+    line-height: 26px;
+}
+.w_btn {
+    margin-bottom: 15px;
+}
+/* welcome end  */
+
+/* about us start  */
+.about {
+    margin: 50px 0 60px;
+}
+.about_text {
+    text-align: center;
+}
+.about_img img {
+    padding: 0 20px;
+}
+.about_title h1 {
+    margin-top: 30px !important;
+    font-size: 25px;
+}
+.about_p {
+    margin: 20px 0;
+    line-height: 25px;
+    word-spacing: 0px;
+}
+.about_p2{
+    line-height: 25px;
+    word-spacing: 0px;
+}
+.about_btn a {
+    margin-top: 40px;
+    padding: 7px 15px;
+}
+/* about us end  */
+
+/* recent work start  */
+.r_work{
+    padding-bottom: 60px;
+}
+.work_shape {
+    height: 40px;
+}
+.work_title {
+    margin: 20px 0 50px;
+}
+.work_title h1 {
+    font-size: 25px;
+}
+.work_btn button {
+    margin: 0 0 0 6px;
+    padding: 5px 5px;
+}
+.work_img {
+    margin-top: 35px;
+    /* padding: 0 25px; */
+}
+/* recent work end  */
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header*/
+.logo {
+    max-width: 75%;
+}
+.menu ul li a {
+    padding: 0px 10px !important;
+    font-size: 13px;
+}
+.btn_1 {
+    padding: 0 8px;
+}
+/*header*/
+/* welcome start  */
+.f_row p {
+    line-height: 30px;
+    word-spacing: 0px;
+}
+.se_row {
+    margin-top: 60px;
+}
+.se_row h3 {
+    margin: 60px 0 20px;
+}
+.se_row p {
+    margin: 0;
+    padding: 10px;
+    line-height: 30px;
+}
+.w_btn {
+    margin-bottom: 15px;
+}
+/* welcome end  */
+
+/* about us start  */
+.about {
+    margin: 60px 0 80px;
+}
+.about_text {
+    text-align: center;
+}
+.about_img img {
+    padding: 0 45px;
+}
+.about_title h1 {
+    margin-top: 30px !important;
+}
+.about_p {
+    margin: 20px 0;
+    line-height: 28px;
+    word-spacing: 1px;
+}
+.about_p2{
+    line-height: 28px;
+    word-spacing: 1px;
+}
+.about_btn a {
+    margin-top: 40px;
+}
+/* about us end  */
+
+/* recent work start  */
+.r_work{
+    padding-bottom: 70px;
+}
+.work_title {
+    margin: 20px 0 50px;
+}
+.work_btn button {
+    margin: 0 0 0 35px;
+    padding: 7px 8px;
+}
+/* recent work end  */
+	
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*	header*/
+.logo {
+    max-width: 95%;
+}
+.menu ul li a {
+    padding: 0px 15px !important;
+    font-size: 14px;
+}
+.btn_1 {
+    padding: 0px 15px;
+}
+/*header*/
+/* welcome start  */
+.f_row p {
+    line-height: 32px;
+    word-spacing: 2px;
+}
+.se_row {
+    margin-top: 80px;
+}
+.se_row h3 {
+    margin: 60px 0 20px;
+}
+.se_row p {
+    margin: 20px 0 25px;
+    padding: 20px;
+    line-height: 30px;
+}
+.w_btn {
+    margin-bottom: 15px;
+}
+/* welcome end  */
+
+/* about us start  */
+.about {
+    margin: 80px 0 100px;
+}
+.about_text {
+    text-align: center;
+}
+.about_img img {
+    padding: 0 80px;
+}
+.about_title h1 {
+    margin-top: 40px !important;
+}
+.about_p {
+    margin: 30px 0;
+    line-height: 28px;
+    word-spacing: 1px;
+}
+.about_p2{
+    line-height: 28px;
+    word-spacing: 1px;
+}
+.about_btn a {
+    margin-top: 40px;
+}
+/* about us end  */
+/* recent work start  */
+.r_work{
+    padding-bottom: 80px;
+}
+.work_title {
+    margin: 20px 0 50px;
+}
+.work_btn button {
+    margin: 0 0 0 15px;
+    padding: 7px 8px;
+}
+/* recent work end  */
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+
+/*Double Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) {
+
+
+}
+
